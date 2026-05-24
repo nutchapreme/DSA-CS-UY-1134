@@ -1,0 +1,22 @@
+#review dsa
+DoublyLinkedList
+- purpose: to keep order
+- Space complexity: O(n)
+- Time complexity:
+    insert/delete: O(1)
+    indexing: O(n)
+    
+-LinkedList + HashMap: tracking duplicates, updating
+-LinkedList + Queue: mixing in nodes with priority and non-priority
+-LinkedList + Stack: tracking specific data
+
+-HashMaps: specific info
+    dict, constant access to everything
+    - keeping locations addresses of nodes
+        - space: O(k)
+        - time: O(1) access **the only ds
+        
+        
+-BinarySearchTree:
+    - inorder: sorted data
+    - Time: O(h); worst case O(n), best case O(logn)
